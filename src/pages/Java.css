@@ -1,0 +1,39 @@
+/* Page container */
+.java-page {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff3e0;
+  }
+  
+  /* Title animation */
+  .java-title {
+    font-size: 3rem;
+    color: #ef6c00;
+    animation: rotate 1.5s ease-in-out;
+  }
+  
+  /* Description animation */
+  .java-description {
+    font-size: 1.5rem;
+    color: #f57c00;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  /* Keyframes */
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

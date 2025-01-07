@@ -1,0 +1,39 @@
+/* Page container */
+.html-page {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Title animation */
+  .html-title {
+    font-size: 3rem;
+    color: #333;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  /* Description animation */
+  .html-description {
+    font-size: 1.5rem;
+    color: #666;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  /* Keyframes */
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
